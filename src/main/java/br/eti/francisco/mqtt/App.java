@@ -13,11 +13,11 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 public class App {
 	public static void main(String[] args) {
 
-        String topic        = "MQTT Examples";
+        String topic        = "hello/world";
         String content      = "Message from MqttPublishSample";
         int qos             = 2;
         String broker       = "tcp://192.168.109.209:1883";
-        String clientId     = " hello/world";
+        String clientId     = "Java Client";
         MemoryPersistence persistence = new MemoryPersistence();
 
         
