@@ -20,6 +20,7 @@ public class App {
         String clientId     = " hello/world";
         MemoryPersistence persistence = new MemoryPersistence();
 
+        
         try {
             MqttClient sampleClient = new MqttClient(broker, clientId, persistence);
             MqttConnectOptions connOpts = new MqttConnectOptions();
