@@ -1,5 +1,12 @@
 # mqtt-java
 
+##Serviço
+Certifique-se que o serviço está operacional:
+
+service start mosquitto
+
+##Uso
+
 Para fazer o sub
 
 <pre>
