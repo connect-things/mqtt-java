@@ -3,7 +3,9 @@
 ##Serviço
 Certifique-se que o serviço está operacional:
 
+<pre>
 service start mosquitto
+</pre>
 
 ##Uso
 
